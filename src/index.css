@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.buisnessCard{
+  background-color: #ccb19d;
+  width:450px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.mainImage{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+
+.titles{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.titles h1,h2,p {
+  margin: 0px;
+}
+
+.titles h1{
+  font-weight: 700;
+  padding-top: 7px;
+
+}
+
+.titles h2{
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 5px;
+
+}
+
+.titles p{
+  font-weight: 12px;
+  padding-top: 7px;
+
+}
+
+
+.buttons{
+display: flex;
+justify-content:space-between;
+margin: 30px;
+margin-top: 15px;
+
+
+}
+
+.email, .linkedinButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige; 
+  width: 40%;
+  height: 40px;
+  text-align: center; 
+  border-radius: 9px;
+  font-size: 18px;
+  margin: 10px;
+
+}
+
+.about,.Interests{
+  padding: 30px;
+  padding-top: 0px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
